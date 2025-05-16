@@ -29,7 +29,7 @@ def decrypt_string_to_file(encrypted_str, password):
 
     print(f"✅ File '{filename}' recreated successfully!")
 
-if __name__ == '__main__':
+def decr():
     print("🧾 Paste the encrypted string:")
     encrypted_input = input().strip()
     password = input("🔑 Password: ").strip()

@@ -26,7 +26,7 @@ def encrypt_file_to_string(filepath, password):
 
     return base64.b64encode(final_data).decode()
 
-if __name__ == '__main__':
+def encr():
     path = input("📂 File to encrypt: ").strip()
     password = input("🔑 Password: ").strip()
     encrypted_string = encrypt_file_to_string(path, password)
